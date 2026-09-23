@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "assessment_id": "CSRA",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "language": "lv",
   "canonical_language": "en",
   "audience": "organizācijas un MVU",
@@ -9,23 +9,33 @@
   "states": [
     {
       "id": "UNKNOWN",
-      "label": "Nezināms / nav pierādījumu"
+      "label": "Nezināms / nav pierādījumu",
+      "meaning": "Pašreizējo stāvokli nevar noteikt ar uzticamu informāciju vai pierādījumiem."
     },
     {
       "id": "CLAIMED",
-      "label": "Apgalvots"
+      "label": "Apgalvots",
+      "meaning": "Prakse vai kontrole tiek apgalvota, bet nav noturīga artefakta vai darbības pierādījumu."
     },
     {
       "id": "DOCUMENTED",
-      "label": "Dokumentēts"
+      "label": "Dokumentēts",
+      "meaning": "Pastāv politika, process vai ieraksts, bet darbība praksē nav demonstrēta."
     },
     {
       "id": "IMPLEMENTED",
-      "label": "Ieviests"
+      "label": "Ieviests",
+      "meaning": "Prakse vai kontrole darbojas praksē un ir izpildes pierādījumi."
     },
     {
       "id": "VERIFIED",
-      "label": "Verificēts"
+      "label": "Verificēts",
+      "meaning": "Nesens tiešs tests, pārskats vai reproducējami pierādījumi apstiprina ieviešanu."
+    },
+    {
+      "id": "NOT_APPLICABLE",
+      "label": "Nav attiecināms",
+      "meaning": "Punkts patiešām neattiecas uz novērtējuma kontekstu; nepieciešams pamatojums."
     }
   ],
   "gap_states": [
@@ -110,8 +120,7 @@
       "priority": "high",
       "source_refs": [
         "nist_csf20",
-        "nis2",
-        "enisa_sme_maturity"
+        "nis2"
       ]
     },
     {
@@ -152,8 +161,7 @@
       "recommended_action": "Definē, kā vājumi tiek atrasti, reģistrēti un piešķirti atbildīgajiem.",
       "priority": "high",
       "source_refs": [
-        "nist_csf20",
-        "enisa_sme_maturity"
+        "nist_csf20"
       ]
     },
     {
@@ -371,8 +379,7 @@
       "recommended_action": "Sasaisti mācības ar īpašniekiem, termiņiem un verifikācijas pierādījumiem.",
       "priority": "normal",
       "source_refs": [
-        "nist_csf20",
-        "enisa_sme_maturity"
+        "nist_csf20"
       ]
     }
   ]

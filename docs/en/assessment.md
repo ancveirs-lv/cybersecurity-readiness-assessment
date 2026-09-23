@@ -9,6 +9,7 @@
 - `DOCUMENTED` — Documented
 - `IMPLEMENTED` — Implemented
 - `VERIFIED` — Verified
+- `NOT_APPLICABLE` — Not applicable
 
 ## Assessment
 
@@ -52,7 +53,7 @@ Supplier and regulatory cyber obligations are identified and assigned to control
 
 **Recommended action:** Create an obligation and supplier-risk map linked to owners and evidence.
 
-**Sources:** `nist_csf20`, `nis2`, `enisa_sme_maturity`
+**Sources:** `nist_csf20`, `nis2`
 
 ### Identify
 
@@ -86,7 +87,7 @@ Vulnerabilities and insecure configurations are discovered through defined proce
 
 **Recommended action:** Define how weaknesses are found, recorded and assigned.
 
-**Sources:** `nist_csf20`, `enisa_sme_maturity`
+**Sources:** `nist_csf20`
 
 #### C10
 
@@ -262,4 +263,4 @@ Post-incident lessons produce owned improvements that are later verified.
 
 **Recommended action:** Track lessons to owners, due dates and verification evidence.
 
-**Sources:** `nist_csf20`, `enisa_sme_maturity`
+**Sources:** `nist_csf20`

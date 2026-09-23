@@ -9,6 +9,7 @@
 - `DOCUMENTED` — Dokumentēts
 - `IMPLEMENTED` — Ieviests
 - `VERIFIED` — Verificēts
+- `NOT_APPLICABLE` — Nav attiecināms
 
 ## Novērtējums
 
@@ -52,7 +53,7 @@ Piegādātāju un regulatīvie kiberdrošības pienākumi ir identificēti un sa
 
 **Ieteiktā darbība:** Izveido pienākumu un piegādātāju risku karti, sasaistot to ar īpašniekiem un pierādījumiem.
 
-**Avoti:** `nist_csf20`, `nis2`, `enisa_sme_maturity`
+**Avoti:** `nist_csf20`, `nis2`
 
 ### Identificēt
 
@@ -86,7 +87,7 @@ Ievainojamības un nedrošas konfigurācijas tiek atklātas ar definētiem proce
 
 **Ieteiktā darbība:** Definē, kā vājumi tiek atrasti, reģistrēti un piešķirti atbildīgajiem.
 
-**Avoti:** `nist_csf20`, `enisa_sme_maturity`
+**Avoti:** `nist_csf20`
 
 #### C10
 
@@ -262,4 +263,4 @@ Pēcincidenta mācības rada atbildīgas uzlabošanas darbības, kas vēlāk tie
 
 **Ieteiktā darbība:** Sasaisti mācības ar īpašniekiem, termiņiem un verifikācijas pierādījumiem.
 
-**Avoti:** `nist_csf20`, `enisa_sme_maturity`
+**Avoti:** `nist_csf20`
