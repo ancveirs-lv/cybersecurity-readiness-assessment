@@ -1,6 +1,6 @@
 {
   "assessment_id": "CSRA",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "answers": {
     "C01": "UNKNOWN",
     "C02": "CLAIMED",

@@ -6,13 +6,17 @@
       "title": "SME Cyber Resilience Maturity Assessment Model",
       "publisher": "ENISA",
       "url": "https://www.enisa.europa.eu/publications/sme-cyber-resilience-maturity-assessment-model",
-      "verified_at": "2026-09-23"
+      "verified_at": "2026-09-23",
+      "scope": "Supplemental CRA/product-security maturity model, primarily for manufacturers placing products with digital elements on the market and other product-lifecycle organisations.",
+      "use": "Supplemental product-security extension; not a universal organisational cybersecurity baseline."
     },
     "nis2": {
       "title": "Directive (EU) 2022/2555 (NIS2)",
       "publisher": "EUR-Lex",
       "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
-      "verified_at": "2026-09-23"
+      "verified_at": "2026-09-23",
+      "scope": "EU legal source; obligations apply only where the assessed entity falls within the Directive and applicable national transposition.",
+      "use": "Regulatory relevance, not a universal requirement for all organisations."
     },
     "nist_csf": {
       "title": "NIST Cybersecurity Framework Resource Center",
