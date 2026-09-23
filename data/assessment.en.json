@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "assessment_id": "CSRA",
+  "version": "0.1.0",
+  "language": "en",
+  "canonical_language": "en",
+  "audience": "organisations and SMEs",
+  "assessment_type": "evidence",
+  "states": [
+    {
+      "id": "UNKNOWN",
+      "label": "Unknown / not evidenced"
+    },
+    {
+      "id": "CLAIMED",
+      "label": "Claimed"
+    },
+    {
+      "id": "DOCUMENTED",
+      "label": "Documented"
+    },
+    {
+      "id": "IMPLEMENTED",
+      "label": "Implemented"
+    },
+    {
+      "id": "VERIFIED",
+      "label": "Verified"
+    }
+  ],
+  "gap_states": [
+    "UNKNOWN",
+    "CLAIMED",
+    "DOCUMENTED"
+  ],
+  "domains": [
+    {
+      "id": "GOVERN",
+      "title": "Govern"
+    },
+    {
+      "id": "IDENTIFY",
+      "title": "Identify"
+    },
+    {
+      "id": "PROTECT",
+      "title": "Protect"
+    },
+    {
+      "id": "DETECT",
+      "title": "Detect"
+    },
+    {
+      "id": "RESPOND",
+      "title": "Respond"
+    },
+    {
+      "id": "RECOVER",
+      "title": "Recover"
+    }
+  ],
+  "items": [
+    {
+      "id": "C01",
+      "domain": "GOVERN",
+      "prompt": "Cybersecurity objectives are linked to business mission, critical services and stakeholder needs.",
+      "recommended_action": "Document the outcomes cybersecurity must protect and who depends on them.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C02",
+      "domain": "GOVERN",
+      "prompt": "Cybersecurity roles, decision rights and risk ownership are explicit.",
+      "recommended_action": "Assign accountable owners and define who may accept material cyber risk.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C03",
+      "domain": "GOVERN",
+      "prompt": "Leadership defines or approves cybersecurity risk tolerance and priorities.",
+      "recommended_action": "Record risk tolerance and use it to resolve competing decisions.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C04",
+      "domain": "GOVERN",
+      "prompt": "Material cybersecurity policies are implemented, reviewed and tied to accountable owners.",
+      "recommended_action": "For each policy identify owner, implementation evidence and review date.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C05",
+      "domain": "GOVERN",
+      "prompt": "Supplier and regulatory cyber obligations are identified and assigned to controls and owners.",
+      "recommended_action": "Create an obligation and supplier-risk map linked to owners and evidence.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2",
+        "enisa_sme_maturity"
+      ]
+    },
+    {
+      "id": "C06",
+      "domain": "IDENTIFY",
+      "prompt": "The organisation maintains an inventory of systems, services, devices and significant software dependencies.",
+      "recommended_action": "Build a minimum viable inventory and identify assets supporting critical services.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C07",
+      "domain": "IDENTIFY",
+      "prompt": "Critical data and its locations, owners and sensitivity are known.",
+      "recommended_action": "Identify critical data sets, owners, locations and handling requirements.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C08",
+      "domain": "IDENTIFY",
+      "prompt": "External dependencies and single points of failure are identified for critical services.",
+      "recommended_action": "Map critical third parties, connectivity and platform dependencies to services.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C09",
+      "domain": "IDENTIFY",
+      "prompt": "Vulnerabilities and insecure configurations are discovered through defined processes.",
+      "recommended_action": "Define how weaknesses are found, recorded and assigned.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "enisa_sme_maturity"
+      ]
+    },
+    {
+      "id": "C10",
+      "domain": "IDENTIFY",
+      "prompt": "Cyber risks are recorded with business impact, assumptions, owners and treatment decisions.",
+      "recommended_action": "Use a risk register that distinguishes evidence, assumptions and treatment status.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C11",
+      "domain": "PROTECT",
+      "prompt": "Access to important systems follows least privilege and strong authentication.",
+      "recommended_action": "Review privileged and remote access first; remove unnecessary rights.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C12",
+      "domain": "PROTECT",
+      "prompt": "Security updates and configuration baselines are managed for supported systems.",
+      "recommended_action": "Define patch and configuration expectations by criticality and track exceptions.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C13",
+      "domain": "PROTECT",
+      "prompt": "Backups are protected from the same failure or compromise as production systems.",
+      "recommended_action": "Separate critical backups and test them after a realistic compromise scenario.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C14",
+      "domain": "PROTECT",
+      "prompt": "Personnel receive role-appropriate cybersecurity guidance and training.",
+      "recommended_action": "Prioritise high-risk roles and tie training to real workflows.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C15",
+      "domain": "PROTECT",
+      "prompt": "Sensitive data is protected in storage, transfer and disposal according to risk.",
+      "recommended_action": "Define minimum protection rules and verify implementation.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C16",
+      "domain": "DETECT",
+      "prompt": "Security-relevant logs exist for critical systems and are retained long enough to investigate incidents.",
+      "recommended_action": "Identify the minimum logs needed to detect and reconstruct high-impact incidents.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C17",
+      "domain": "DETECT",
+      "prompt": "Monitoring has defined owners, alert routes and response expectations.",
+      "recommended_action": "Define receiver, response time and escalation for critical alert sources.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C18",
+      "domain": "DETECT",
+      "prompt": "The organisation can recognise meaningful anomalies in critical services and identities.",
+      "recommended_action": "Define high-value abnormal conditions and confirm they are detectable.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C19",
+      "domain": "DETECT",
+      "prompt": "Detection includes material third-party and cloud signals where the organisation depends on them.",
+      "recommended_action": "Identify supplier and cloud signals that must reach incident response.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C20",
+      "domain": "DETECT",
+      "prompt": "Detection coverage is tested with realistic scenarios rather than assumed from tool deployment.",
+      "recommended_action": "Run controlled detection tests and record expected versus observed alerts.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C21",
+      "domain": "RESPOND",
+      "prompt": "A usable incident-response plan defines roles, authority and escalation paths.",
+      "recommended_action": "Build the plan around real decision rights and contact paths.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C22",
+      "domain": "RESPOND",
+      "prompt": "Internal, customer, supplier and regulatory communication responsibilities are defined before an incident.",
+      "recommended_action": "Predefine communication owners, approval routes and required information.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C23",
+      "domain": "RESPOND",
+      "prompt": "The organisation can contain affected accounts, devices or services without improvising basic access.",
+      "recommended_action": "Prepare and test containment actions for plausible high-impact incidents.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C24",
+      "domain": "RESPOND",
+      "prompt": "Incident evidence is preserved sufficiently for investigation, learning and required reporting.",
+      "recommended_action": "Define minimum evidence-preservation steps before an incident occurs.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C25",
+      "domain": "RESPOND",
+      "prompt": "Exercises test real people, decisions and dependencies, not only the existence of a plan.",
+      "recommended_action": "Run a scenario forcing escalation, containment, communication and supplier coordination.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C26",
+      "domain": "RECOVER",
+      "prompt": "Critical systems and data have tested recovery procedures.",
+      "recommended_action": "Perform and retain evidence from an end-to-end recovery test.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C27",
+      "domain": "RECOVER",
+      "prompt": "Recovery priorities and time/data-loss objectives are defined from business needs.",
+      "recommended_action": "Agree service recovery order and tolerable time/data loss with business owners.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C28",
+      "domain": "RECOVER",
+      "prompt": "Critical processes have a defined degraded or alternative operating mode.",
+      "recommended_action": "Define the minimum viable service when normal systems are unavailable.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C29",
+      "domain": "RECOVER",
+      "prompt": "Recovery plans account for critical suppliers and external dependencies.",
+      "recommended_action": "Test recovery when a critical supplier is unavailable or compromised.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C30",
+      "domain": "RECOVER",
+      "prompt": "Post-incident lessons produce owned improvements that are later verified.",
+      "recommended_action": "Track lessons to owners, due dates and verification evidence.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "enisa_sme_maturity"
+      ]
+    }
+  ]
+}

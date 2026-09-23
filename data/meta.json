@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "repository": "ancveirs-lv/cybersecurity-readiness-assessment",
+  "title_en": "Cybersecurity Readiness Self-Assessment",
+  "title_lv": "Kiberdrošības gatavības pašnovērtējums uzņēmumam",
+  "assessment_id": "CSRA",
+  "version": "0.1.0",
+  "expected_item_count": 30,
+  "domain_ids": [
+    "GOVERN",
+    "IDENTIFY",
+    "PROTECT",
+    "DETECT",
+    "RESPOND",
+    "RECOVER"
+  ],
+  "state_ids": [
+    "UNKNOWN",
+    "CLAIMED",
+    "DOCUMENTED",
+    "IMPLEMENTED",
+    "VERIFIED"
+  ],
+  "assessment_type": "evidence",
+  "global_english": true,
+  "method_note_en": "This assessment is a readiness and evidence-gap instrument. It is not a compliance determination, certification, audit or substitute for sector-specific requirements.",
+  "method_note_lv": "Šis novērtējums ir gatavības un pierādījumu nepilnību instruments. Tas nav atbilstības konstatējums, sertifikācija, audits vai nozares specifisko prasību aizstājējs.",
+  "status": "pilot-baseline"
+}

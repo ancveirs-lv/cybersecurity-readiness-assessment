@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "assessment_id": "CSRA",
+  "version": "0.1.0",
+  "language": "lv",
+  "canonical_language": "en",
+  "audience": "organizācijas un MVU",
+  "assessment_type": "evidence",
+  "states": [
+    {
+      "id": "UNKNOWN",
+      "label": "Nezināms / nav pierādījumu"
+    },
+    {
+      "id": "CLAIMED",
+      "label": "Apgalvots"
+    },
+    {
+      "id": "DOCUMENTED",
+      "label": "Dokumentēts"
+    },
+    {
+      "id": "IMPLEMENTED",
+      "label": "Ieviests"
+    },
+    {
+      "id": "VERIFIED",
+      "label": "Verificēts"
+    }
+  ],
+  "gap_states": [
+    "UNKNOWN",
+    "CLAIMED",
+    "DOCUMENTED"
+  ],
+  "domains": [
+    {
+      "id": "GOVERN",
+      "title": "Pārvaldīt"
+    },
+    {
+      "id": "IDENTIFY",
+      "title": "Identificēt"
+    },
+    {
+      "id": "PROTECT",
+      "title": "Aizsargāt"
+    },
+    {
+      "id": "DETECT",
+      "title": "Atklāt"
+    },
+    {
+      "id": "RESPOND",
+      "title": "Reaģēt"
+    },
+    {
+      "id": "RECOVER",
+      "title": "Atjaunot"
+    }
+  ],
+  "items": [
+    {
+      "id": "C01",
+      "domain": "GOVERN",
+      "prompt": "Kiberdrošības mērķi ir sasaistīti ar organizācijas misiju, kritiskajiem pakalpojumiem un ieinteresēto pušu vajadzībām.",
+      "recommended_action": "Dokumentē rezultātus, kas kiberdrošībai jāaizsargā, un kas no tiem ir atkarīgs.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C02",
+      "domain": "GOVERN",
+      "prompt": "Kiberdrošības lomas, lēmumu tiesības un riska īpašumtiesības ir skaidras.",
+      "recommended_action": "Piešķir atbildīgos īpašniekus un definē, kurš drīkst pieņemt būtisku kiberrisku.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C03",
+      "domain": "GOVERN",
+      "prompt": "Vadība definē vai apstiprina kiberdrošības riska toleranci un prioritātes.",
+      "recommended_action": "Fiksē riska toleranci un izmanto to konfliktējošu lēmumu risināšanai.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C04",
+      "domain": "GOVERN",
+      "prompt": "Būtiskas kiberdrošības politikas ir ieviestas, pārskatītas un piesaistītas atbildīgajiem īpašniekiem.",
+      "recommended_action": "Katrai politikai nosaki īpašnieku, ieviešanas pierādījumu un pārskatīšanas datumu.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C05",
+      "domain": "GOVERN",
+      "prompt": "Piegādātāju un regulatīvie kiberdrošības pienākumi ir identificēti un sasaistīti ar kontrolēm un īpašniekiem.",
+      "recommended_action": "Izveido pienākumu un piegādātāju risku karti, sasaistot to ar īpašniekiem un pierādījumiem.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2",
+        "enisa_sme_maturity"
+      ]
+    },
+    {
+      "id": "C06",
+      "domain": "IDENTIFY",
+      "prompt": "Organizācija uztur sistēmu, pakalpojumu, ierīču un būtisku programmatūras atkarību uzskaiti.",
+      "recommended_action": "Izveido minimāli pietiekamu uzskaiti un identificē aktīvus, kas atbalsta kritiskos pakalpojumus.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C07",
+      "domain": "IDENTIFY",
+      "prompt": "Ir zināmi kritiskie dati, to atrašanās vietas, īpašnieki un sensitivitāte.",
+      "recommended_action": "Identificē kritiskās datu kopas, īpašniekus, atrašanās vietas un apstrādes prasības.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C08",
+      "domain": "IDENTIFY",
+      "prompt": "Kritiskiem pakalpojumiem ir identificētas ārējās atkarības un vienpunktu atteices.",
+      "recommended_action": "Kartē kritiskos trešo pušu, savienojamības un platformu atkarību punktus pret pakalpojumiem.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C09",
+      "domain": "IDENTIFY",
+      "prompt": "Ievainojamības un nedrošas konfigurācijas tiek atklātas ar definētiem procesiem.",
+      "recommended_action": "Definē, kā vājumi tiek atrasti, reģistrēti un piešķirti atbildīgajiem.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "enisa_sme_maturity"
+      ]
+    },
+    {
+      "id": "C10",
+      "domain": "IDENTIFY",
+      "prompt": "Kiberriski tiek reģistrēti ar biznesa ietekmi, pieņēmumiem, īpašniekiem un apstrādes lēmumiem.",
+      "recommended_action": "Izmanto risku reģistru, kas nošķir pierādījumus, pieņēmumus un apstrādes statusu.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C11",
+      "domain": "PROTECT",
+      "prompt": "Piekļuve svarīgām sistēmām ievēro mazāko privilēģiju principu un stipru autentifikāciju.",
+      "recommended_action": "Vispirms pārskati privileģēto un attālināto piekļuvi; noņem nevajadzīgas tiesības.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C12",
+      "domain": "PROTECT",
+      "prompt": "Atbalstītām sistēmām tiek pārvaldīti drošības atjauninājumi un konfigurāciju bāzes līnijas.",
+      "recommended_action": "Definē atjauninājumu un konfigurāciju prasības pēc kritiskuma un uzskaiti izņēmumus.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C13",
+      "domain": "PROTECT",
+      "prompt": "Rezerves kopijas ir aizsargātas pret to pašu atteici vai kompromitāciju, kas var skart produkcijas sistēmas.",
+      "recommended_action": "Atdali kritiskās rezerves kopijas un pārbaudi tās reālistiska kompromitācijas scenārija gadījumā.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C14",
+      "domain": "PROTECT",
+      "prompt": "Personāls saņem lomai atbilstošas kiberdrošības vadlīnijas un apmācību.",
+      "recommended_action": "Prioritizē augsta riska lomas un sasaisti apmācību ar reāliem procesiem.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C15",
+      "domain": "PROTECT",
+      "prompt": "Sensitīvi dati tiek aizsargāti glabāšanā, pārsūtē un iznīcināšanā atbilstoši riskam.",
+      "recommended_action": "Definē minimālos aizsardzības noteikumus un pārbaudi ieviešanu.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C16",
+      "domain": "DETECT",
+      "prompt": "Kritiskām sistēmām ir drošībai būtiski žurnāli, kas tiek glabāti pietiekami ilgi incidentu izmeklēšanai.",
+      "recommended_action": "Identificē minimālos žurnālus, kas vajadzīgi augstas ietekmes incidentu atklāšanai un rekonstrukcijai.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C17",
+      "domain": "DETECT",
+      "prompt": "Monitoringam ir definēti īpašnieki, brīdinājumu ceļi un reaģēšanas prasības.",
+      "recommended_action": "Definē saņēmēju, reakcijas laiku un eskalāciju kritiskiem brīdinājumu avotiem.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C18",
+      "domain": "DETECT",
+      "prompt": "Organizācija spēj atpazīt būtiskas anomālijas kritiskos pakalpojumos un identitātēs.",
+      "recommended_action": "Definē augstas vērtības anomālijas un pārbaudi, ka tās ir atklājamas.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C19",
+      "domain": "DETECT",
+      "prompt": "Atklāšana ietver būtiskus trešo pušu un mākoņpakalpojumu signālus, ja organizācija no tiem ir atkarīga.",
+      "recommended_action": "Identificē piegādātāju un mākoņpakalpojumu signālus, kam jānonāk incidentu procesā.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C20",
+      "domain": "DETECT",
+      "prompt": "Atklāšanas pārklājums tiek pārbaudīts ar reālistiskiem scenārijiem, nevis pieņemts no rīku ieviešanas fakta.",
+      "recommended_action": "Veic kontrolētus atklāšanas testus un fiksē sagaidītos un novērotos brīdinājumus.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C21",
+      "domain": "RESPOND",
+      "prompt": "Izmantojams incidentu reaģēšanas plāns definē lomas, pilnvaras un eskalācijas ceļus.",
+      "recommended_action": "Veido plānu ap reālām lēmumu tiesībām un kontaktu ceļiem.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C22",
+      "domain": "RESPOND",
+      "prompt": "Iekšējās, klientu, piegādātāju un regulatīvās komunikācijas pienākumi ir definēti pirms incidenta.",
+      "recommended_action": "Iepriekš definē komunikācijas īpašniekus, apstiprināšanas ceļus un vajadzīgo informāciju.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C23",
+      "domain": "RESPOND",
+      "prompt": "Organizācija spēj ierobežot ietekmētos kontus, ierīces vai pakalpojumus, neimprovizējot pamata piekļuves.",
+      "recommended_action": "Sagatavo un pārbaudi ierobežošanas darbības ticamiem augstas ietekmes incidentiem.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C24",
+      "domain": "RESPOND",
+      "prompt": "Incidentu pierādījumi tiek saglabāti pietiekami izmeklēšanai, mācībām un nepieciešamajai ziņošanai.",
+      "recommended_action": "Definē minimālos pierādījumu saglabāšanas soļus pirms incidenta.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C25",
+      "domain": "RESPOND",
+      "prompt": "Mācības pārbauda reālus cilvēkus, lēmumus un atkarības, ne tikai plāna esamību.",
+      "recommended_action": "Veic scenāriju, kas prasa eskalāciju, ierobežošanu, komunikāciju un piegādātāju koordināciju.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C26",
+      "domain": "RECOVER",
+      "prompt": "Kritiskām sistēmām un datiem ir pārbaudītas atjaunošanas procedūras.",
+      "recommended_action": "Veic pilna cikla atjaunošanas testu un saglabā pierādījumus.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C27",
+      "domain": "RECOVER",
+      "prompt": "Atjaunošanas prioritātes un laika/datu zuduma mērķi ir definēti no biznesa vajadzībām.",
+      "recommended_action": "Saskaņo pakalpojumu atjaunošanas secību un pieļaujamo laika/datu zudumu ar biznesa īpašniekiem.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C28",
+      "domain": "RECOVER",
+      "prompt": "Kritiskiem procesiem ir definēts degradēts vai alternatīvs darbības režīms.",
+      "recommended_action": "Definē minimāli dzīvotspējīgu pakalpojumu, kad parastās sistēmas nav pieejamas.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "C29",
+      "domain": "RECOVER",
+      "prompt": "Atjaunošanas plāni ņem vērā kritiskos piegādātājus un ārējās atkarības.",
+      "recommended_action": "Pārbaudi atjaunošanu, ja kritisks piegādātājs nav pieejams vai ir kompromitēts.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "C30",
+      "domain": "RECOVER",
+      "prompt": "Pēcincidenta mācības rada atbildīgas uzlabošanas darbības, kas vēlāk tiek verificētas.",
+      "recommended_action": "Sasaisti mācības ar īpašniekiem, termiņiem un verifikācijas pierādījumiem.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "enisa_sme_maturity"
+      ]
+    }
+  ]
+}
