@@ -24,6 +24,10 @@ Response-state meanings are part of the machine-readable methodology contract in
 
 NIS2 references are scope-qualified. The ENISA SME Cyber Resilience Maturity Assessment Model is retained only as supplemental CRA/product-security material.
 
+## Advanced threat reference
+
+For targeted-device compromise, mercenary spyware, high-value data-correlation, re-identification and inference-risk controls, use [Advanced Digital Threat Defense](https://github.com/ancveirs-lv/advanced-digital-threat-defense). It complements this readiness assessment; it does not replace sector-specific requirements.
+
 ## Quick start
 
 ```bash
