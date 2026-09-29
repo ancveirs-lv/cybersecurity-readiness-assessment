@@ -24,6 +24,10 @@ Atbilžu stāvokļu nozīmes ir daļa no mašīnlasāmā metodoloģijas līguma 
 
 NIS2 atsauces ir ierobežotas ar piemērojamo tvērumu. ENISA SME Cyber Resilience Maturity Assessment Model tiek izmantots tikai kā papildmateriāls CRA/produktu drošībai.
 
+## Augsta līmeņa draudu atsauce
+
+Mērķētas ierīču kompromitēšanas, algotas spiegprogrammatūras, augstas vērtības datu korelācijas, reidentifikācijas un secinājumu riska kontrolēm izmanto [Advanced Digital Threat Defense](https://github.com/ancveirs-lv/advanced-digital-threat-defense). Tas papildina šo gatavības pašnovērtējumu, nevis aizstāj nozares prasības.
+
 ## Ātra palaišana
 
 ```bash
